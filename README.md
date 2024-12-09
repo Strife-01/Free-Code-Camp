@@ -2,10 +2,11 @@
 
 This repository contains my solutions and projects developed during my journey through FreeCodeCamp's curriculum. Each section corresponds to a specific certification offered by FreeCodeCamp, showcasing the skills and knowledge acquired.
 
+![Free Code Camp Logo](https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg)
+
 ## Certifications and Projects
 
 ### 1. **Responsive Web Design**
-![Responsive Web Design Logo](https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg)
 - **Status:** Completed
 - **Description:** Focused on building responsive web pages using HTML and CSS, emphasizing accessibility and user experience.
 - **Projects:**
@@ -19,7 +20,6 @@ This repository contains my solutions and projects developed during my journey t
 ---
 
 ### 2. **Legacy JavaScript Algorithms and Data Structures**
-![JavaScript Algorithms and Data Structures Logo](https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg)
 - **Status:** Completed
 - **Description:** Covers fundamental JavaScript concepts, algorithms, and data structures.
 - **Projects:**
@@ -33,7 +33,6 @@ This repository contains my solutions and projects developed during my journey t
 ---
 
 ### 3. **Front End Development Libraries**
-![Front End Development Libraries Logo](https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg)
 - **Status:** Completed
 - **Description:** Introduces front-end libraries such as React, Redux, and Bootstrap.
 - **Projects:**
@@ -47,7 +46,6 @@ This repository contains my solutions and projects developed during my journey t
 ---
 
 ### 4. **Data Visualization**
-![Data Visualization Logo](https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg)
 - **Status:** Completed
 - **Description:** Teaches data visualization techniques using D3.js and other tools.
 - **Projects:**
@@ -61,7 +59,6 @@ This repository contains my solutions and projects developed during my journey t
 ---
 
 ### 5. **APIs and Microservices**
-![APIs and Microservices Logo](https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg)
 - **Status:** Completed
 - **Description:** Focuses on building APIs and microservices using Node.js and Express.
 - **Projects:**
@@ -75,7 +72,6 @@ This repository contains my solutions and projects developed during my journey t
 ---
 
 ### 6. **Quality Assurance**
-![Quality Assurance Logo](https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg)
 - **Status:** Planned
 - **Description:** Covers quality assurance practices, including testing with Chai and Mocha.
 - **Projects:**
@@ -88,7 +84,6 @@ This repository contains my solutions and projects developed during my journey t
 ---
 
 ### 7. **Scientific Computing with Python**
-![Scientific Computing with Python Logo](https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg)
 - **Status:** Planned
 - **Description:** Introduces Python for scientific computing, covering libraries like NumPy and Pandas.
 - **Projects:**
@@ -101,7 +96,6 @@ This repository contains my solutions and projects developed during my journey t
 ---
 
 ### 8. **Data Analysis with Python**
-![Data Analysis with Python Logo](https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg)
 - **Status:** Planned
 - **Description:** Focuses on data analysis techniques using Python libraries.
 - **Projects:**
@@ -114,7 +108,6 @@ This repository contains my solutions and projects developed during my journey t
 ---
 
 ### 9. **Information Security**
-![Information Security Logo](https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg)
 - **Status:** Planned
 - **Description:** Covers information security principles and practices.
 - **Projects:**
@@ -127,7 +120,6 @@ This repository contains my solutions and projects developed during my journey t
 ---
 
 ### 10. **Machine Learning with Python**
-![Machine Learning with Python Logo](https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg)
 - **Status:** Planned
 - **Description:** Introduces machine learning concepts and techniques using Python.
 - **Projects:**
@@ -140,7 +132,6 @@ This repository contains my solutions and projects developed during my journey t
 ---
 
 ### 12. **Relational Databases**
-![Relational Databases Logo](https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg)
 - **Status:** In Progress
 - **Description:** Teaches relational database concepts and SQL.
 - **Projects:**
