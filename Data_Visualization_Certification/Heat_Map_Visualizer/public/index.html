@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script defer src="./index.js"></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <h1 id="title">Monthly Global Land-Surface Temperature</h1>
+        <h4 id="description"></h4>
+        <div id="tooltip"></div>
+        <svg id="canvas"></svg>
+        <svg id="legend" width="460">
+            <g>
+                <rect x="10" y="10" width="40" height="40" fill="blue"></rect>
+                <text x="10" y="70" fill="black">- 2.8</text>
+            </g>
+            <g>
+                <rect
+                    x="50"
+                    y="10"
+                    width="40"
+                    height="40"
+                    fill="#6495ED"
+                ></rect>
+                <text x="50" y="70" fill="black">- 3.9</text>
+            </g>
+            <g>
+                <rect
+                    x="90"
+                    y="10"
+                    width="40"
+                    height="40"
+                    fill="#00BFFF"
+                ></rect>
+                <text x="90" y="70" fill="black">- 5.0</text>
+            </g>
+            <g>
+                <rect
+                    x="130"
+                    y="10"
+                    width="40"
+                    height="40"
+                    fill="#00CED1"
+                ></rect>
+                <text x="130" y="70" fill="black">- 6.1</text>
+            </g>
+            <g>
+                <rect
+                    x="170"
+                    y="10"
+                    width="40"
+                    height="40"
+                    fill="#E0FFFF"
+                ></rect>
+                <text x="170" y="70" fill="black">- 7.2</text>
+            </g>
+            <g>
+                <rect
+                    x="210"
+                    y="10"
+                    width="40"
+                    height="40"
+                    fill="#FFFACD"
+                ></rect>
+                <text x="210" y="70" fill="black">- 8.3</text>
+            </g>
+            <g>
+                <rect
+                    x="250"
+                    y="10"
+                    width="40"
+                    height="40"
+                    fill="#F0E68C"
+                ></rect>
+                <text x="250" y="70" fill="black">- 9.5</text>
+            </g>
+            <g>
+                <rect
+                    x="290"
+                    y="10"
+                    width="40"
+                    height="40"
+                    fill="#DAA520"
+                ></rect>
+                <text x="290" y="70" fill="black">- 10.6</text>
+            </g>
+            <g>
+                <rect
+                    x="3300"
+                    y="10"
+                    width="40"
+                    height="40"
+                    fill="#F08080"
+                ></rect>
+                <text x="330" y="70" fill="black">- 11.7</text>
+            </g>
+            <g>
+                <rect
+                    x="370"
+                    y="10"
+                    width="40"
+                    height="40"
+                    fill="#CD5C5C"
+                ></rect>
+                <text x="370" y="70" fill="black">- 12.8</text>
+            </g>
+            <g>
+                <rect x="410" y="10" width="40" height="40" fill="red"></rect>
+                <text x="410" y="70" fill="black">-</text>
+            </g>
+        </svg>
+    </body>
+</html>
+

@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #eeeeee;
+    z-index: -1;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    background-color: #eeeeee;
+}
+
+#header-img {
+    height: 40px;
+    margin-top: 29px;
+    margin-left: 50px;
+}
+
+#nav-bar {
+    margin-top: 37px;
+    margin-bottom: auto;
+    font-size: large;
+}
+
+#nav-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: auto;
+    list-style-type: none;
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.passing-text {
+    position: absolute;
+    top: 0;
+}
+
+#form-section {
+    width: 550px;
+    margin-inline: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.div-text {
+    width: 70%;
+    margin-left: auto;
+    margin-right: 30px;
+    align-self: auto;
+}
+
+.section-header {
+    font-size: 28px;
+    font-weight: 600;
+    padding-inline: auto;
+}
+
+#email {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    background-color: aliceblue;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid gray;
+}
+
+#submit {
+    display: block;
+    margin-top: 18px;
+    margin-inline: auto;
+    width: 160px;
+    height: 35px;
+    background-color: #f1c40f;
+    border: 0;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#submit:hover {
+    background-color: #ff8c00;
+    transition: 2s;
+}
+
+#features {
+    max-width: 1000px;
+    margin-inline: auto;
+    margin-top: 150px;
+}
+
+.section-header {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.features-sub-section {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+.icon {
+    max-width: 100px;
+    height: 125px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.info {
+    padding-top: auto;
+    padding-bottom: auto;
+    line-height: 20px;
+}
+
+#how-it-works {
+    max-width: 560px;
+    margin-inline: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+#pricing {
+    max-width: 960px;
+    margin-inline: auto;
+    margin-top: 70px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.pricing-card {
+    border: 2px solid black;
+    border-radius: 3px;
+    max-width: 320px;
+    width: 100%;
+}
+
+.pricing-header {
+    background-color: #ddd;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+span {
+    font-style: italic;
+}
+
+.price {
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+ol li {
+    font-size: 18px;
+    margin-top: 8px;
+    list-style-type: none;
+}
+
+.price-btn {
+    font-size: 20px;
+    width: 120px;
+    height: 45px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    background-color: #f1c40f;
+    border: 0;
+    border-radius: 2px;
+}
+
+.price-btn:hover {
+    background-color: #ff8c00;
+    transition: 2s;
+}
+
+#footer {
+    max-width: 1000px;
+    height: 80px;
+    background: #ddd !important;
+    margin-inline: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-rows: auto auto;
+    padding-right: 10px;
+}
+
+.footer-menu {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: end;
+    margin-right: 30px;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.copyrights {
+    margin-right: 15px;
+    margin-left: auto;
+    margin-top: 7px;
+    font-size: 16px;
+    color: rgb(65, 65, 65);
+}
+
+@media only screen and (max-width: 950px) {
+    .container {
+        display: block;
+        width: 320;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pricing-card {
+        margin-inline: auto;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #nav-list {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        margin-top: -20px;
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    .icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .info {
+        text-align: center;
+    }
+    .info h2 {
+        text-align: center;
+        margin-top: 100px;
+    }
+    #submit {
+        margin-bottom: -140px;
+    }
+    #header {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 99;
+        background-color: #eeeeee;
+        height: 200px;
+    }
+    #form-section {
+        margin-top: 200px;
+    }
+    #header-img {
+        margin-inline: auto;
+    }
+    .div-text {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #nav-bar {
+        margin-inline: auto;
+    }
+}
+

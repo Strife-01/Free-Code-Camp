@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+#canvas {
+    min-width: 1000px;
+    min-width: 600px;
+}
+
+h1 {
+    font-size: 60px;
+}
+h4 {
+    font-weight: 400;
+}
+
+#tooltip {
+    visibility: hidden;
+}
+
+#svg-wrapper {
+    position: relative;
+}
+
+.county:hover {
+    stroke: black;
+}
+

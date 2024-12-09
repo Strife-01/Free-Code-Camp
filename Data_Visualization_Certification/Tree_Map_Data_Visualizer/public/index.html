@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles.css" />
+        <script defer src="./index.js"></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <title>Treemap Diagram</title>
+    </head>
+    <body>
+        <div>
+            <h2 class="title" id="movie-title">Movie Sales</h2>
+            <h4 class="description" id="movie-description">
+                Number of movies sold by category.
+            </h4>
+            <div class="tooltip" id="movieTooltip"></div>
+            <svg id="movie-canvas"></svg>
+            <svg class="legend" id="movieLegend">
+                <g>
+                    <rect class="legend-item"></rect>
+                    <text></text>
+                </g>
+                <g>
+                    <rect class="legend-item"></rect>
+                    <text></text>
+                </g>
+            </svg>
+        </div>
+        <div>
+            <h2 class="title" id="movie-title">Games Sales</h2>
+            <h4 class="description" id="movie-description">
+                Number of games sold by category.
+            </h4>
+            <div class="tooltip" id="gamesTooltip"></div>
+            <svg id="games-canvas"></svg>
+            <svg class="legend" id="gamesLegend"></svg>
+        </div>
+        <div>
+            <h2 class="title" id="movie-title">Kickstarter Sales</h2>
+            <h4 class="description" id="movie-description">
+                Number of kickstarter projects by category.
+            </h4>
+            <div class="tooltip" id="kickstarterTooltip"></div>
+            <svg id="kickstarter-canvas"></svg>
+            <svg class="legend" id="kickstarterLegend"></svg>
+        </div>
+    </body>
+</html>
+

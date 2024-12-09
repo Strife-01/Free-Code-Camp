@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+svg {
+    background-color: whitesmoke;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.description {
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+#movie-canvas {
+    min-height: 600px;
+    min-width: 1000px;
+}
+
+#kickstarter-canvas {
+    min-height: 600px;
+    min-width: 1000px;
+}
+
+#games-canvas {
+    min-height: 600px;
+    min-width: 1000px;
+}
+
+.tooltip {
+    visibility: hidden;
+}
+

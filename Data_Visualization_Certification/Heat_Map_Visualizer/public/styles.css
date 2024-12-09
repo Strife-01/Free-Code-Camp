@@ -1,0 +1,39 @@
+html {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+svg {
+    background-color: whitesmoke;
+    display: flex;
+}
+
+#canvas {
+    min-width: 1200px;
+    min-height: 600;
+}
+
+#title {
+    font-size: 35px;
+}
+
+#legend g rect {
+    border: 1px solid black;
+}
+
+#tooltip {
+    visibility: hidden;
+}
+
+.cell:hover {
+  stroke: black;
+}
